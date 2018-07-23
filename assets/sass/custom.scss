@@ -1,0 +1,220 @@
+/** Import Bootsrap **/
+
+@import "../bootstrap/scss/bootstrap";
+
+/* variables */
+
+$bootstrap-xs: "(max-width : 767px)";
+$bootstrap-sm: "(min-width : 768px) and (max-width : 991px)";
+$bootstrap-md: "(min-width : 992px) and (max-width : 1199px)";
+$bootstrap-lg: "(min-width : 1200px)";
+
+$bootstrap-md-lg: "(min-width : 992px)";
+$bootstrap-sm-md: "(min-width : 768px) and (max-width : 1199px)";
+$bootstrap-min-xs: "(min-width : 768px)";
+
+$bootstrap-max-sm: "(max-width : 991px)";
+$bootstrap-max-md: "(max-width : 1199px)";
+
+$bg-dark-opaque-4:	rgba(#343a40, 0.4);
+
+/** Colors **/
+
+$orange: #ef773b;
+$sky-blue: #37ddf7;
+$dark: #5a5a5a;
+$gray-light: #acacac;
+$gray-very-light: #d9d9d9;
+$white: #fff;
+
+/** Generic classes **/
+.txt {
+    &-orange {
+    	color: $orange;
+    }
+    &-dark {
+    	color: $dark;
+    }
+    &-gray-light {
+    	color: $gray-light;
+    }
+    &-gray-very-light {
+    	color: $dark;
+    }
+    &-gray-very-light {
+    	color: $dark;
+    }
+    &-white {
+    	color: $white;
+    }
+}
+.bg {
+    &-orange {
+    	background-color: $orange;
+    }
+    &-dark {
+    	background-color: $dark;
+    }
+    &-gray-light {
+    	background-color: $gray-light;
+    }
+    &-gray-very-light {
+    	background-color: $gray-very-light;
+    }
+    &-white {
+    	background-color: $white;
+    }
+}
+.border {
+	&-orange {
+		border-color: $orange !important;
+	}
+	&-dark {
+		border-color: $dark !important;
+	}
+	&-gray-light {
+		border-color: $gray-light !important;
+	}
+	&-gray-very-light {
+		border-color: $gray-very-light !important;
+	}
+	&-white {
+		border-color: $white !important;
+	}
+}
+
+
+.border-radius {
+	&-6 {
+		border-radius: 6px;
+	}
+	&-12 {
+		border-radius: 12px;
+	}
+}
+.box-shaddow {
+	box-shadow: 0px 5px 10px 0px $gray-light;
+}
+
+section {
+	margin: 30px 0;
+}
+
+/* Jumbotron */
+.jumbotron {
+	min-height: 500px;
+	padding: 8rem 2rem;
+	background-position: center center;
+    background-size: 100%;
+	background: linear-gradient(
+      rgba($sky-blue, 0.75), 
+      rgba($white, 0.45)),
+      url(../images/banner.jpg);
+	
+	.search-form {
+		.input-group {
+			.form-control {
+			    border: 0;
+			    border-radius: 0;
+			    background: transparent;
+			    font-size: 42px;
+			    text-transform: uppercase;
+			}
+			.fa {
+				font-size: 32px;
+				color: $dark;
+				margin: auto;
+				padding: 10px;
+				color: $orange;
+			}
+		}
+	}
+	hr {
+		border-top: 1px solid $dark;
+	}
+}
+/* Carousel CSS */
+.carousel {
+	.carousel-item {
+		.carousel-caption {
+			background-color: $bg-dark-opaque-4;
+			top: 35%;
+    		bottom: 35%;
+			@media #{$bootstrap-xs}
+			{
+				top: 25%;
+    			bottom: 25%;
+			}
+		}
+	}
+	a[class^="carousel-control-"] {
+		font-size: 36px;
+	}
+	.carousel-indicators {
+		li {
+			opacity: 0.4;
+			&.active {
+				opacity: 1;
+			}
+		}
+	}
+}
+/* Navbar CSS */
+.navbar {
+	.navbar-brand {
+		color: $orange;
+	}
+	.navbar-nav {
+		.nav-item {
+			.nav-link {
+				color: $dark;
+				border-radius: 6px;
+				padding: 10px;
+				&:hover, &:active {
+					&:not(.disabled) {
+						color: $orange;
+					}
+				}
+				&.disabled {
+					color: $gray-light
+				}
+			}
+			&.active {
+				.nav-link {
+					color: $orange;
+				}
+			}
+			.dropdown-menu {
+				left: auto;
+				right: 0px; 
+				position: absolute;
+				border: 0;
+				border-top: 2px solid;
+
+				a {
+					&:active, &:hover {
+						color: $orange;
+						background-color: transparent;
+					}
+				}
+			}
+			.badge {
+			    position: absolute;
+			    top: 2px;
+    			left: 2px;
+			    border-radius: 50%;
+			}
+		}
+	}
+}
+.badge-orange {
+    color: $white;
+    background-color: $orange;
+}
+
+footer {
+	padding: 60px 0;
+	color: $white;
+}
+
+@import "product-details";
