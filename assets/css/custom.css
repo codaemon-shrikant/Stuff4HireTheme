@@ -8764,7 +8764,8 @@ section {
 
 footer {
   padding: 60px 0;
-  color: #fff;
+  color: #212529;
+  font-weight: normal;
 }
 
 .preview .preview-pic {
