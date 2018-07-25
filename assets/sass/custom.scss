@@ -214,7 +214,10 @@ section {
 
 footer {
 	padding: 60px 0;
-	color: $white;
+	color: $dark;
 }
 
 @import "product-details";
+@import "email-msg-thread";
+@import "message-thread";
+@import "payouts";
