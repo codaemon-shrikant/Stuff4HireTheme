@@ -6,6 +6,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ 
 :root {
   --blue: #ef773b;
   --indigo: #6610f2;
@@ -8805,6 +8806,24 @@ footer {
 }
 .details .price span {
   color: #ef773b;
+}
+.message-thread .coversation-title {
+  margin-top: 30px;
+}
+.message-thread .user-name {
+  font-size: 15px;
+}
+.message-thread .msg-text {
+  font-size: 15px;
+}
+
+.payouts .btn-block {
+  display: block;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.payouts .payouts-amount {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=custom.css.map */
