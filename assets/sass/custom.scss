@@ -16,12 +16,11 @@ $bootstrap-min-xs: "(min-width : 768px)";
 $bootstrap-max-sm: "(max-width : 991px)";
 $bootstrap-max-md: "(max-width : 1199px)";
 
-$bg-dark-opaque-4:	rgba(#343a40, 0.4);
 
 /** Colors **/
 
 $orange: #ef773b;
-$sky-blue: #37ddf7;
+$sky-blue: #c4e5ec;
 $dark: #5a5a5a;
 $gray-light: #acacac;
 $gray-very-light: #d9d9d9;
@@ -49,6 +48,9 @@ $white: #fff;
     }
 }
 .bg {
+	&-sky-blue {
+		background-color: $sky-blue;
+	}
     &-orange {
     	background-color: $orange;
     }
@@ -107,8 +109,8 @@ section {
 	background-position: center center;
     background-size: 100%;
 	background: linear-gradient(
-      rgba($sky-blue, 0.75), 
-      rgba($white, 0.45)),
+      rgba($white, 0.85), 
+      rgba($white, 0.25)),
       url(../images/banner.jpg);
 	
 	.search-form {
@@ -116,7 +118,7 @@ section {
 			.form-control {
 			    border: 0;
 			    border-radius: 0;
-			    background: transparent;
+			    background: rgba($white, 0.25);
 			    font-size: 42px;
 			    text-transform: uppercase;
 			}
@@ -137,7 +139,7 @@ section {
 .carousel {
 	.carousel-item {
 		.carousel-caption {
-			background-color: $bg-dark-opaque-4;
+			background-color: rgba($white, 0.8);
 			top: 35%;
     		bottom: 35%;
 			@media #{$bootstrap-xs}
@@ -190,11 +192,33 @@ section {
 				position: absolute;
 				border: 0;
 				border-top: 2px solid;
+				padding: 0;
+				@media #{$bootstrap-xs} {
+					right: -50px
+				}
 
 				a {
 					&:active, &:hover {
 						color: $orange;
 						background-color: transparent;
+					}
+				}
+				&.message-dropdown-menu {
+					max-width: 400px;
+					@media #{$bootstrap-xs} {
+						max-width: 240px;
+					}
+					.message-card {
+						.message-card-body {
+							font-size: 12px;
+						}
+					}
+					.dropdown-item {
+						border-bottom: 1px solid $dark;
+					    white-space: normal;
+						@media #{$bootstrap-xs} { 
+							padding: 5px; 
+						}
 					}
 				}
 			}
@@ -218,6 +242,11 @@ footer {
 }
 
 @import "product-details";
+@import "message-card";
+@import "review-card";
+@import "email-card";
+
+@import "profile-card";
 @import "email-msg-thread";
 @import "message-thread";
 @import "payouts";

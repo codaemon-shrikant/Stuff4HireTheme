@@ -6,7 +6,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
 :root {
   --blue: #ef773b;
   --indigo: #6610f2;
@@ -8627,6 +8626,9 @@ h3 {
   color: #fff;
 }
 
+.bg-sky-blue {
+  background-color: #c4e5ec;
+}
 .bg-orange {
   background-color: #ef773b;
 }
@@ -8680,12 +8682,12 @@ section {
   padding: 8rem 2rem;
   background-position: center center;
   background-size: 100%;
-  background: linear-gradient(rgba(55, 221, 247, 0.75), rgba(255, 255, 255, 0.45)), url(../images/banner.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.25)), url(../images/banner.jpg);
 }
 .jumbotron .search-form .input-group .form-control {
   border: 0;
   border-radius: 0;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.25);
   font-size: 42px;
   text-transform: uppercase;
 }
@@ -8702,7 +8704,7 @@ section {
 
 /* Carousel CSS */
 .carousel .carousel-item .carousel-caption {
-  background-color: rgba(52, 58, 64, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   top: 35%;
   bottom: 35%;
 }
@@ -8746,10 +8748,36 @@ section {
   position: absolute;
   border: 0;
   border-top: 2px solid;
+  padding: 0;
+}
+@media (max-width : 767px) {
+  .navbar .navbar-nav .nav-item .dropdown-menu {
+    right: -50px;
+  }
 }
 .navbar .navbar-nav .nav-item .dropdown-menu a:active, .navbar .navbar-nav .nav-item .dropdown-menu a:hover {
   color: #ef773b;
   background-color: transparent;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu.message-dropdown-menu {
+  max-width: 400px;
+}
+@media (max-width : 767px) {
+  .navbar .navbar-nav .nav-item .dropdown-menu.message-dropdown-menu {
+    max-width: 240px;
+  }
+}
+.navbar .navbar-nav .nav-item .dropdown-menu.message-dropdown-menu .message-card .message-card-body {
+  font-size: 12px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu.message-dropdown-menu .dropdown-item {
+  border-bottom: 1px solid #5a5a5a;
+  white-space: normal;
+}
+@media (max-width : 767px) {
+  .navbar .navbar-nav .nav-item .dropdown-menu.message-dropdown-menu .dropdown-item {
+    padding: 5px;
+  }
 }
 .navbar .navbar-nav .nav-item .badge {
   position: absolute;
@@ -8765,8 +8793,12 @@ section {
 
 footer {
   padding: 60px 0;
-  color: #212529;
-  font-weight: normal;
+  color: #5a5a5a;
+}
+
+.product-card .product-card-rating .rating-user-avtar {
+  width: 80px;
+  height: 80px;
 }
 
 .preview .preview-pic {
@@ -8807,6 +8839,35 @@ footer {
 .details .price span {
   color: #ef773b;
 }
+
+.message-card .message-card-body .message-card-image {
+  width: 100%;
+  max-width: 250px;
+}
+
+.review-card .review-card-avtar {
+  width: 150px;
+  height: 150px;
+}
+.review-card .review-card-avtar img {
+  width: 100%;
+}
+.review-card .review-card-body .review-card-title {
+  display: inline-block;
+}
+.review-card .review-card-body .review-card-rating-stars {
+  display: inline-block;
+}
+.profile-card .profile-card-avatar {
+  width: 200px;
+}
+.profile-card .profile-card-body .profile-card-details p {
+  margin: 5px 0;
+}
+.profile-card .profile-card-map {
+  width: 200px;
+}
+
 .message-thread .coversation-title {
   margin-top: 30px;
 }

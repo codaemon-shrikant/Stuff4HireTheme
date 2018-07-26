@@ -91,14 +91,14 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="./assets/images/slider1.jpg" alt="First slide">
+                <img class="d-block w-100" src="./assets/images/banner.jpg" alt="First slide">
                 <div class="carousel-caption text-primary">
                     <h1>Slide 1</h1>
                     <p>Some description here</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./assets/images/slider2.jpg" alt="First slide">
+                <img class="d-block w-100" src="./assets/images/banner.jpg" alt="First slide">
                 <div class="carousel-caption text-primary">
                     <h1>Slide 2</h1>
                     <p>Some description here</p>
@@ -260,42 +260,40 @@
     <div class="container">
         <h1>Reservation Summary</h1>
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
-                <div class="card mb-3 border-radius-6 product-info">
-                    <div class="row px-2 px-3 py-3">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="product-avtar-big">
-                                <img class="card-img-top mb-2" src="./assets/images/no-image.jpeg" alt="Generic placeholder image">
-                            </div>
-                            <div class="product-cost">
-                                <h6 class="text-center">$10/hour or $60/day</h6>
-                            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="media border-radius-6 product">
+                    <div class="media-left">
+                        <div class="product-avtar-big align-self-start mr-3 ">
+                            <img class="card-img-top mb-2" src="./assets/images/no-image.jpeg" alt="Generic placeholder image">
+                       </div>
+                       <div class="product-cost">
+                            <h6 class="text-center">$10/hour or $60/day</h6>
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                            <div class="product-title">
-                                <h5 class="font-weight-bold">MT601 MAKTEC BY MAKITA 3/8” DRILL 110V</h5>
-                            </div>
-                            <div class="product-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit.</p>
-                            </div>
-                            <div class="user-rating-panel">
-                                <div class="row px-2">
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                                        <div class="user-avtar">
-                                            <img class="img-thumbnail" src="./assets/images/no-image.jpeg" alt="Generic placeholder image">
-                                        </div>
+                    </div>
+                    <div class="media-body product-details">
+                        <div class="product-title">
+                            <h5 class="font-weight-bold">MT601 MAKTEC BY MAKITA 3/8” DRILL 110V</h5>
+                        </div>
+                        <div class="product-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="product-rating">
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="user-avtar">
+                                        <img class="img-thumbnail" src="./assets/images/no-image.jpeg" alt="Generic placeholder image">
                                     </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                        <div class="user-name">
-                                            <h5>Craig Carr</h5>
-                                        </div>
-                                        <div class="rating rating-stars">
-                                            <span class="fa fa-star checked txt-orange fa-xs"></span>
-                                            <span class="fa fa-star checked txt-orange fa-xs"></span>
-                                            <span class="fa fa-star checked txt-orange fa-xs"></span>
-                                            <span class="fa fa-star fa-xs"></span>
-                                            <span class="fa fa-star fa-xs"></span>       
-                                        </div>
+                                </div>
+                                <div class="media-body mx-3">
+                                    <div class="user-name">
+                                        <h5>Craig Carr</h5>
+                                    </div>
+                                    <div class="product-rating-stars">
+                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                        <span class="fa fa-star fa-xs"></span>
+                                        <span class="fa fa-star fa-xs"></span>       
                                     </div>
                                 </div>
                             </div>
@@ -1160,7 +1158,7 @@
                         <div class="main-header">
                             <h4 class="coversation-title">Conversation with Jane D about 4/9” Drill</h4>
                         </div>
-                        <div class="msg-body">
+                        <div class="message-thread-body">
                             <div class="row">  
                                 <div class="col-lg-8 col-md-8 col-sm-8">
                                     <div class="row">
@@ -1181,28 +1179,47 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-2 col-md-2 col-sm-2">
-                                            <div class="user-avtar">
-                                                <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="message-card card my-3 p-3">
+                                                <div class="message-card-avtar card-img-top">
+                                                    <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
+                                                </div>
+                                                <div class="message-card-body">
+                                                    <div class="message-card-user-name"">
+                                                        <p ><b> John S </b> 3/10/16 9:00am</p>
+                                                    </div>
+                                                    <div class="message-card-title">
+                                                        <p><b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b></p>
+                                                    </div>
+                                                    <div class="message-card-text">
+                                                        <p ">Hi Jane, are you free during this time? You seem close by and this
+                                                            is exactly what I need after moving in!</p>
+                                                    </div>
+                                                    <div class="message-card-confirm-button">
+                                                        <button type="button" class="btn btn-success ">CONFIRM</button>
+                                                        <button type="button" class="btn btn-danger ">DENY</button>
+                                                    </div>
+                                                    <div class="message-card-note">
+                                                        <p class="small"><i>You must accept by 9:00PM or request will be automatically denied.</i></p>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-10 col-md-10 col-sm-10">
-                                            <div class="user-name"">
-                                                <p ><b> John S </b> 3/10/16 9:00am</p>
-                                            </div>
-                                            <div class="msg-title">
-                                                <p><b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b></p>
-                                            </div>
-                                            <div class="msg-text">
-                                                <p ">Hi Jane, are you free during this time? You seem close by and this
-                                                    is exactly what I need after moving in!</p>
-                                            </div>
-                                            <div class="msg-confirm-button">
-                                                <button type="button" class="btn btn-success ">CONFIRM</button>
-                                                <button type="button" class="btn btn-danger ">DENY</button>
-                                            </div>
-                                            <div class="msg-note">
-                                                <p class="small"><i>You must accept by 9:00PM or request will be automatically denied.</i></p>
+                                            <div class="message-card card">
+                                                <div class="message-card-avtar card-img-top">
+                                                    <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
+                                                </div>
+                                                <div class="message-card-body">
+                                                    <div class="message-card-user-name"">
+                                                        <p ><b> John S </b> 3/10/16 9:00am</p>
+                                                    </div>
+                                                    <div class="message-card-title">
+                                                        <p><b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b></p>
+                                                    </div>
+                                                    <div class="message-card-text">
+                                                        <p ">Hi Jane, are you free during this time? You seem close by and this
+                                                            is exactly what I need after moving in!</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1394,6 +1411,7 @@
             </div>
         </div>
     </section>
+
     <!--Payout Code Ends Here -->
 
     <!-- Footer -->
