@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'remove', 'sass', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose lib/node_modules/sass unbuild
+6 info preuninstall sass@1.10.0
+7 info uninstall sass@1.10.0
+8 verbose true,/usr/lib/node_modules,/usr/lib/node_modules unbuild sass@1.10.0
+9 verbose /usr/bin,[object Object] binRoot
+10 error Error: EACCES, unlink '/usr/bin/sass'
+10 error  { [Error: EACCES, unlink '/usr/bin/sass'] errno: 3, code: 'EACCES', path: '/usr/bin/sass' }
+11 error Please try running this command again as root/Administrator.
+12 error System Linux 3.16.0-30-generic
+13 error command "/usr/bin/node" "/usr/bin/npm" "remove" "sass" "-g"
+14 error cwd /home/ubuntu/Documents/work/Stuff4HireTheme/Stuff4HireTheme
+15 error node -v v0.10.37
+16 error npm -v 1.4.28
+17 error path /usr/bin/sass
+18 error code EACCES
+19 error errno 3
+20 error stack Error: EACCES, unlink '/usr/bin/sass'
+21 verbose exit [ 3, true ]
