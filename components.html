@@ -27,6 +27,13 @@
         });
     });
     </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+        $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+    });
+
+    </script>
 
 </head>
 <body>
@@ -44,7 +51,7 @@
                             <a class="dropdown-item" href="#">
                                 <div class="media message-card my-1">
                                     <div class="message-card-body media-body">
-                                        <div class="message-card-body-header" "="">
+                                        <div class="message-card-body-header">
                                             <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
                                         </div>
                                         <div class="message-card-title">
@@ -59,7 +66,7 @@
                             <a class="dropdown-item" href="#">
                                 <div class="media message-card my-1">
                                     <div class="message-card-body media-body">
-                                        <div class="message-card-body-header" "="">
+                                        <div class="message-card-body-header">
                                             <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
                                         </div>
                                         <div class="message-card-title">
@@ -74,7 +81,7 @@
                             <a class="dropdown-item" href="#">
                                 <div class="media message-card my-1">
                                     <div class="message-card-body media-body">
-                                        <div class="message-card-body-header" "="">
+                                        <div class="message-card-body-header">
                                             <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
                                         </div>
                                         <div class="message-card-title">
@@ -89,7 +96,7 @@
                             <a class="dropdown-item" href="#">
                                 <div class="media message-card my-1">
                                     <div class="message-card-body media-body">
-                                        <div class="message-card-body-header" "="">
+                                        <div class="message-card-body-header">
                                             <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
                                         </div>
                                         <div class="message-card-title">
@@ -104,7 +111,7 @@
                             <a class="dropdown-item" href="#">
                                 <div class="media message-card my-1">
                                     <div class="message-card-body media-body">
-                                        <div class="message-card-body-header" "="">
+                                        <div class="message-card-body-header">
                                             <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
                                         </div>
                                         <div class="message-card-title">
@@ -346,14 +353,14 @@
                             <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA">
                         </div>
                         <div class="message-card-body media-body">
-                            <div class="message-card-body-header" "="">
+                            <div class="message-card-body-header">
                                 <p><span class="message-card-user-name"> John S </span> 3/10/16 9:00am</p>
                             </div>
                             <div class="message-card-title">
                                 <p><b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b></p>
                             </div>
                             <div class="message-card-text">
-                                <p "="">Hi Jane, are you free during this time? You seem close by and this
+                                <p>Hi Jane, are you free during this time? You seem close by and this
                                     is exactly what I need after moving in!</p>
                             </div>
                             <div class="message-card-confirm-button">
@@ -374,7 +381,7 @@
                             <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA">
                         </div>
                         <div class="message-card-body media-body">
-                            <div class="message-card-body-header" "="">
+                            <div class="message-card-body-header">
                                 <p><span class="message-card-user-name"> John S </span> 3/10/16 9:00am</p>
                             </div>
                             <div class="message-card-text">
@@ -392,7 +399,7 @@
                             <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA">
                         </div>
                         <div class="message-card-body media-body">
-                             <div class="message-card-body-header" "="">
+                             <div class="message-card-body-header">
                                 <p><span class="message-card-user-name"> John S </span> 3/10/16 9:00am</p>
                             </div>
                             <div class="message-card-title">
@@ -413,7 +420,7 @@
                             <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA">
                         </div>
                         <div class="message-card-body media-body">
-                            <div class="message-card-user-name" "="">
+                            <div class="message-card-user-name">
                                 <p><strong> John S </strong> 3/10/16 9:00am</p>
                             </div>
                             <div class="message-card-title">
@@ -446,7 +453,7 @@
                                 <span class="fa fa-star fa-xs"></span>
                                 <span class="fa fa-star fa-xs"></span>       
                             </div>
-                            <div class="review-card-user-name" "="">
+                            <div class="review-card-user-name">
                                 <p><strong> John S </strong> 3/10/16 9:00am</p>
                             </div>
                             <div class="review-card-text">
@@ -516,6 +523,435 @@
                             <div class="profile-card-map-adderss">
                                 Upper West Side New York, NY 10018
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="notification">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Notification settings variations</h1>
+                    <div class="notification-card mb-3 border-radius-6 box-shaddow">
+                        <div class="notification-card-body px-3 py-2">
+                            <div class="notification-card-title">
+                                <h6><b>Text Messages</b></h6>
+                            </div>
+                            <div class="notification-card-check">
+                                <label class="notification-check-label">Receive mobile updates by regular SMS text message
+                                </label>
+                                <input type="checkbox" class="notification-check-input">
+                            </div>
+                            <div class="notification-card-input-type">
+                                <label class="notification-check-label">Send to</label>
+                                <input type="text" aria-label="Sizing example input" aria-label="Username">
+                            </div>
+                            <div class="notification-card-footer py-4">
+                                <button type="button" class="btn btn-sm px-4">Save</button>
+                                <a class="btn btn-sm px-4">Cancel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Stuff-Borrowing-Panel">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                        <h1>Stuff I am borrowing Collapsible panel</h1>
+                        <div class="collapse-panel collapsible-card-panel px-3 py-2 mb-3 border-radius-6 box-shaddow">
+                             <div class="media bg-light border collapsible-card-header" id="panelOne">
+                                    <div class="collapsible-card-header-arrow px-2 py-4">
+                                        <i id="headingOne" class="fa fa-chevron-down pull-right" data-toggle="collapse" data-target="#collapseOne"></i>
+                                    </div>
+                                    <div class="collapsible-card-header-avtar px-2 py-4">
+                                        <img class="mr-3" width="80" src="./assets/images/no-image.jpeg" alt="Generic placeholder image">
+                                    </div>
+                                    <div class="media-body collapsible-card-header-body px-2 py-4">
+                                        <div class="collapsible-card-header-title">
+                                            <h6><b>MT601 MAKTEC BY MAKITA 3/8” DRILL 110V</b></h6>
+                                        </div>
+                                        <div class="collapsible-card-header-description">
+                                            <p class="mb-0">
+                                                Pick up at 
+                                                <strong>03/07/16</strong> at 
+                                                <strong>9:30AM </strong> Return at 
+                                                <strong>03/07/16</strong> at 
+                                                <strong>3:00PM</strong>
+                                            </p>  
+                                        </div>
+                                    </div>
+                            </div>
+                            <div id="collapseOne" class="collapse collapse-body border px-4 py-2 collapsible-card-body" aria-labelledby="headingOne" data-parent="#panelOne">
+                                    <div class="collapsible-card-body-text">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit amet onsectetur adipiscing elit lorem ipsum dolor sit.         
+                                        </p>   
+                                    </div>
+                                    <div class="media product-card-rating">
+                                        <div class="media-left">
+                                            <div class="rating-user-avtar">
+                                                <img class="img-thumbnail" width="80" src="./assets/images/user.png" alt="Generic placeholder image">
+                                            </div>
+                                        </div>
+                                        <div class="media-body mx-3">
+                                            <div class="user-name">
+                                                <h5>Craig Carr</h5>
+                                            </div>
+                                            <div class="product-rating-stars">
+                                                <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                <span class="fa fa-star fa-xs"></span>
+                                                <span class="fa fa-star fa-xs"></span>       
+                                            </div>
+                                        </div>
+                                        <div class="media-right profile-card-map">
+                                            <img class="img-thumbnail" src="./assets/images/map.png" alt="Generic placeholder image">
+                                            <div class="profile-card-map-adderss">
+                                                Upper West Side New York, NY 10018
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fees-info">
+                                        <div class="row px-4">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="fees-title">
+                                                    <strong>Initial Fee</strong>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="fees-cost">
+                                                    <p>$30.00</p>
+                                                </div>
+                                            </div>
+                                        </div>                           
+                                        <div class="row px-4">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="fees-title">
+                                                    <strong>Service Fee (?)</strong>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="fees-cost">
+                                                    <p class="">$5.25</p>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="fees-title">
+                                                    <strong>TOTAL</strong>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="fees-cost">
+                                                    <p class="">$35.25</p>
+                                                </div>
+                                            </div>
+                                        </div>                       
+                                        <div class="px-4 imp-notice">
+                                            <p>Charge to <strong> VISA *5555 </strong> (edit)</p>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-card-links">
+                                        <u><a href="">Message</a></u>
+                                        <u class="px-2"><a href="">Resolve Issue</a></u>
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carousel slide" data-ride="carousel" id="postsCarousel">
+        <div class="container">
+                    <h1>Product List carousel </h1>
+        <div class="row">
+            <div class="col-12 text-md-right lead">
+                <a class="btn btn-secondary-outline prev" title="go back" data-target="#postsCarousel"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-secondary-outline next" title="more" data-target="#postsCarousel"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="container pt-0 mt-2">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card-deck">
+                    <div class="card h-100">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
+                        </div>
+                    </div>
+                    <div class="card h-100">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
+                        </div>
+                    </div>
+                    <div class="card h-100">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-deck">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 4">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 5">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 6">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="payouts">
+        <div class="container">
+            <h1>Payouts</h1>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="card payouts-card mt-4">
+                        <div class="payouts-card-title">
+                            <p class="px-4 py-2 mb-0 bg-gray-light"> 
+                                <span>Payouts</span>
+                            </p> 
+                        </div>    
+                         <div class=" border-radius-6 px-4 py-4 payouts-card body">    
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+                                    <div class="payouts-heading">
+                                        <p>TOTAL EARNED </p>
+                                    </div>
+                                    <div class="payouts-amount">
+                                        <p><b>$536.00 </b></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+                                    <div class="payouts-heading">
+                                        <p>TOTAL THIS WEEK </p>
+                                    </div>
+                                    <div class="payouts-amount">
+                                        <p><b>$536.00 </b></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+                                    <div class="payouts-heading">
+                                        <p>TOTAL THIS MONTH </p>
+                                    </div>
+                                    <div class="payouts-amount">
+                                        <p class="payouts-amount"><b>$536.00</b> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payouts-card-details">
+                                <p>Payouts are being sent to your Paypal account (janedoe@email.com) <u>EDIT</u></p>
+                            </div><hr>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="payouts-table-component">
+        <div class="container">
+            <div class="row">
+                <h1>Payouts-Table</h1>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="table-responsive payouts-table .table-responsive-sm">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>DATE </th>
+                                    <th>ITEM </th>
+                                    <th>RENTER </th>
+                                    <th class="d-none d-sm-block">TOTAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="payouts-table-date">03/06/16 </td>
+                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-table-user-name">John S </td>
+                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="payouts-table-date">03/06/16 </td>
+                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-table-user-name">John S </td>
+                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="payouts-table-date">03/06/16 </td>
+                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-table-user-name">John S </td>
+                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="payouts-table-date">03/06/16 </td>
+                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-table-user-name">John S </td>
+                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="payouts-table-date">03/06/16 </td>
+                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-table-user-name">John S </td>
+                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="message">
+        <div class="container">
+            <div class="row">
+                <h1>Messages</h1>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="table-responsive .table-responsive-sm messages-table">          
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>User Name</th>
+                                    <th>Last Updated</th>
+                                    <th>Discussion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="message-card-avtar">
+                                        <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
+                                        <span class="user-name"><b>John S</b></span>
+                                    </td>
+                                    <td class="message-last-update">3/10/16 9:00am </td>
+                                    <td class="message-descussion"><b>Lorem ipsum dolor sit amet</b><br>Lorem ipsum dolor sit amet consectetur adipiscing elit </td>    
+                                </tr>
+                                <tr class="table-active">
+                                    <td class="message-card-avtar">
+                                        <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
+                                        <span class="user-name">John S </span>
+                                    </td>
+                                    <td class="message-last-update">3/10/16 9:00am </td>
+                                    <td class="message-descussion"><b>Lorem ipsum dolor sit amet</b><br>Lorem ipsum dolor sit amet consectetur adipiscing elit </td> 
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="payment-methods">
+        <div class="container">
+            <h1>Payment Methods</h1>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="card payment-card mt-4">
+                        <div class="payment-card-title">
+                            <p class="px-4 py-2 mb-0 bg-gray-light"> 
+                                <span>Payment Methods</span>
+                            </p> 
+                        </div>    
+                        <div class="container">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">   
+                                        <div class="form-group pt-3">
+                                            <label for="first-name">FIRST NAME</label>
+                                            <input type="text" class="form-control" id="first-name" placeholder="Enter First Name" name="first-name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">  
+                                        <div class="form-group pt-3">
+                                            <label for="last-name">LAST NAME</label>
+                                            <input type="last-name" class="form-control" id="last-name" placeholder="Enter Last Name" name="last-name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <label for="postal-code">POSTAL CODE</label>
+                                            <input type="text" class="form-control" id="postal-code" placeholder="Enter Postal Code" name="postal-code">
+                                        </div>  
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <label for="country">COUNTRY</label>
+                                            <select class="form-control" id="country">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">   
+                                        <div class="form-group ">
+                                            <label for="first-name">CARD NUMBER</label>
+                                            <input type="text" class="form-control" id="card-number" placeholder="Enter Card Number" name="card-number">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <div class="form-group">
+                                            <label for="expires">EXPIRES
+                                            </label>
+                                            <select class="form-control" id="expires-month">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <div class="form-group">
+                                            <label for="expire-year ">&nbsp</label>
+                                            <select class="form-control " id="expire-year">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class=" col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
+                                    </div>
+                                    <div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
+                                        <div class="form-group">
+                                            <label for="last-name">SECURITY CODE</label>
+                                            <input type="security-code" class="form-control" id="security-code" placeholder="Enter Security Code" name="last-name">
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-success ">SAVE</button>
+                                    <button type="button" class="btn btn-default">Cancel</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
