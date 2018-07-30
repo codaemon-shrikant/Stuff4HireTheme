@@ -317,24 +317,24 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="details col-md-6 py-3">
-                            <h3 class="product-title">men's shoes fashion</h3>
+                        <div class="details col-md-6 py-3 px-3">
+                            <h3 class="product-title px-1">men's shoes fashion</h3>
                             <div class="rating">
-                                <div class="stars">
+                                <div class="stars px-3">
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
-                                <span class="review-no">41 reviews</span>
+                                <span class="review-no px-3">41 reviews</span>
                             </div>
-                            <p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
-                            <h4 class="price">current price: <span>$180</span></h4>
-                            <p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+                            <p class="product-description  px-3 ">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
+                            <h4 class="price px-1">current price: <span>$180</span></h4>
+                            <p class="vote px-3"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
 
-                            <div class="action">
-                                <button class="add-to-cart btn btn-primary" type="button">Reserve This Item</button>
+                            <div class="action px-1">
+                                <button class="add-to-cart btn btn-primary " type="button">Reserve This Item</button>
                                 <button class="like btn btn-primary" type="button"><span class="fa fa-heart"></span></button>
                             </div>
                         </div>
@@ -364,8 +364,8 @@
                                     is exactly what I need after moving in!</p>
                             </div>
                             <div class="message-card-confirm-button">
-                                <button type="button" class="btn btn-success ">CONFIRM</button>
-                                <button type="button" class="btn btn-danger ">DENY</button>
+                                <button type="button" class="btn btn-primary">CONFIRM</button>
+                                <button type="button" class="btn btn-default">DENY</button>
                             </div>
                             <div class="message-card-note">
                                 <p class="small"><i>You must accept by 9:00PM or request will be automatically denied.</i></p>
@@ -534,7 +534,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Notification settings variations</h1>
-                    <div class="notification-card mb-3 border-radius-6 box-shaddow">
+                    <div class="card notification-card mb-3 border-radius-6 box-shaddow">
                         <div class="notification-card-body px-3 py-2">
                             <div class="notification-card-title">
                                 <h6><b>Text Messages</b></h6>
@@ -544,13 +544,13 @@
                                 </label>
                                 <input type="checkbox" class="notification-check-input">
                             </div>
-                            <div class="notification-card-input-type">
+                            <div class="notification-card-input">
                                 <label class="notification-check-label">Send to</label>
                                 <input type="text" aria-label="Sizing example input" aria-label="Username">
                             </div>
                             <div class="notification-card-footer py-4">
-                                <button type="button" class="btn btn-sm px-4">Save</button>
-                                <a class="btn btn-sm px-4">Cancel</a>
+                                <button type="button" class="btn btn-primary">SAVE</button>
+                                <button type="button" class="btn btn-default">Cancel</button>
                             </div>
                         </div>
                     </div>
@@ -559,18 +559,16 @@
         </div>
     </section>
 
-    <section class="Stuff-Borrowing-Panel">
+    <section class="stuff-borrowing-panel">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                         <h1>Stuff I am borrowing Collapsible panel</h1>
                         <div class="collapse-panel collapsible-card-panel px-3 py-2 mb-3 border-radius-6 box-shaddow">
-                             <div class="media bg-light border collapsible-card-header" id="panelOne">
-                                    <div class="collapsible-card-header-arrow px-2 py-4">
+                            <div class="media bg-light collapsible-card-header" id="panelOne">
+                                    <div class="media-right collapsible-card-header-avtar px-2 py-4">
                                         <i id="headingOne" class="fa fa-chevron-down pull-right" data-toggle="collapse" data-target="#collapseOne"></i>
-                                    </div>
-                                    <div class="collapsible-card-header-avtar px-2 py-4">
-                                        <img class="mr-3" width="80" src="./assets/images/no-image.jpeg" alt="Generic placeholder image">
+                                        <img width="100" src="./assets/images/no-image.jpeg" alt="Generic placeholder image">
                                     </div>
                                     <div class="media-body collapsible-card-header-body px-2 py-4">
                                         <div class="collapsible-card-header-title">
@@ -587,132 +585,244 @@
                                         </div>
                                     </div>
                             </div>
-                            <div id="collapseOne" class="collapse collapse-body border px-4 py-2 collapsible-card-body" aria-labelledby="headingOne" data-parent="#panelOne">
+                            <div id="collapseOne" class="collapse collapse-body px-4 py-2 collapsible-card-body" aria-labelledby="headingOne" data-parent="#panelOne">
                                     <div class="collapsible-card-body-text">
                                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit amet onsectetur adipiscing elit lorem ipsum dolor sit.         
                                         </p>   
                                     </div>
-                                    <div class="media product-card-rating">
-                                        <div class="media-left">
-                                            <div class="rating-user-avtar">
-                                                <img class="img-thumbnail" width="80" src="./assets/images/user.png" alt="Generic placeholder image">
+                                    <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                            <div class="media">
+                                                <div class="media-left rating-user-avtar">
+                                                    <img class="img-thumbnail" width="80" src="./assets/images/user.png" alt="Generic placeholder image">
+                                                </div>
+                                                <div class="media-body mx-3">
+                                                    <div class="user-name">
+                                                        <h5>Craig Carr</h5>
+                                                    </div>
+                                                    <div class="product-rating-stars">
+                                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                        <span class="fa fa-star fa-xs"></span>
+                                                        <span class="fa fa-star fa-xs"></span>       
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="media-body mx-3">
-                                            <div class="user-name">
-                                                <h5>Craig Carr</h5>
+                                            <div class="fees-panel py-4">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-title">
+                                                            <strong>Initial Fee</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-cost">
+                                                            <p>$30.00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>                           
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-title">
+                                                            <strong>Service Fee (?)</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-cost">
+                                                            <p class="">$5.25</p>
+                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-title">
+                                                            <strong>TOTAL</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-cost">
+                                                            <p class="">$35.25</p>
+                                                        </div>
+                                                    </div>
+                                                </div>                       
+                                                <div class="fees-charge-info">
+                                                    <p>Charge to <strong> VISA *5555 </strong> (edit)</p>
+                                                </div>
                                             </div>
-                                            <div class="product-rating-stars">
-                                                <span class="fa fa-star checked txt-orange fa-xs"></span>
-                                                <span class="fa fa-star checked txt-orange fa-xs"></span>
-                                                <span class="fa fa-star checked txt-orange fa-xs"></span>
-                                                <span class="fa fa-star fa-xs"></span>
-                                                <span class="fa fa-star fa-xs"></span>       
+                                            <div class="collapsible-card-links">
+                                                <u><a href="">Message</a></u>
+                                                <u class="px-2"><a href="">Resolve Issue</a></u>
                                             </div>
-                                        </div>
-                                        <div class="media-right profile-card-map">
-                                            <img class="img-thumbnail" src="./assets/images/map.png" alt="Generic placeholder image">
-                                            <div class="profile-card-map-adderss">
-                                                Upper West Side New York, NY 10018
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                        <div class="media product-card-rating">
+                                          
+                                            <div class="media-right profile-card-map">
+                                                <img class="img-thumbnail" src="./assets/images/map.png" alt="Generic placeholder image">
+                                                <div class="profile-card-map-adderss">
+                                                    Upper West Side New York, NY 10018
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="fees-info">
-                                        <div class="row px-4">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <div class="fees-title">
-                                                    <strong>Initial Fee</strong>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <div class="fees-cost">
-                                                    <p>$30.00</p>
-                                                </div>
-                                            </div>
-                                        </div>                           
-                                        <div class="row px-4">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <div class="fees-title">
-                                                    <strong>Service Fee (?)</strong>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <div class="fees-cost">
-                                                    <p class="">$5.25</p>
-                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="row px-4">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <div class="fees-title">
-                                                    <strong>TOTAL</strong>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <div class="fees-cost">
-                                                    <p class="">$35.25</p>
-                                                </div>
-                                            </div>
-                                        </div>                       
-                                        <div class="px-4 imp-notice">
-                                            <p>Charge to <strong> VISA *5555 </strong> (edit)</p>
-                                        </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="media bg-light collapsible-card-header" id="panelTwo">
+                                    <div class="media-right collapsible-card-header-avtar px-2 py-4">
+                                        <i id="headingTwo" class="fa fa-chevron-down pull-right" data-toggle="collapse" data-target="#collapseTwo"></i>
+                                        <img width="100" src="./assets/images/no-image.jpeg" alt="Generic placeholder image">
                                     </div>
-                                    <div class="collapsible-card-links">
-                                        <u><a href="">Message</a></u>
-                                        <u class="px-2"><a href="">Resolve Issue</a></u>
+                                    <div class="media-body collapsible-card-header-body px-2 py-4">
+                                        <div class="collapsible-card-header-title">
+                                            <h6><b>MT601 MAKTEC BY MAKITA 3/8” DRILL 110V</b></h6>
+                                        </div>
+                                        <div class="collapsible-card-header-description">
+                                            <p class="mb-0">
+                                                Pick up at 
+                                                <strong>03/07/16</strong> at 
+                                                <strong>9:30AM </strong> Return at 
+                                                <strong>03/07/16</strong> at 
+                                                <strong>3:00PM</strong>
+                                            </p>  
+                                        </div>
                                     </div>
                             </div>
+                            <div id="collapseTwo" class="collapse collapse-body px-4 py-2 collapsible-card-body" aria-labelledby="headingTwo" data-parent="#panelTwo">
+                                    <div class="collapsible-card-body-text">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit amet onsectetur adipiscing elit lorem ipsum dolor sit.         
+                                        </p>   
+                                    </div>
+                                    <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                            <div class="media">
+                                                <div class="media-left rating-user-avtar">
+                                                    <img class="img-thumbnail" width="80" src="./assets/images/user.png" alt="Generic placeholder image">
+                                                </div>
+                                                <div class="media-body mx-3">
+                                                    <div class="user-name">
+                                                        <h5>Craig Carr</h5>
+                                                    </div>
+                                                    <div class="product-rating-stars">
+                                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                        <span class="fa fa-star checked txt-orange fa-xs"></span>
+                                                        <span class="fa fa-star fa-xs"></span>
+                                                        <span class="fa fa-star fa-xs"></span>       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="fees-panel py-4">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-title">
+                                                            <strong>Initial Fee</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-cost">
+                                                            <p>$30.00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>                           
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-title">
+                                                            <strong>Service Fee (?)</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-cost">
+                                                            <p class="">$5.25</p>
+                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-title">
+                                                            <strong>TOTAL</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="fees-cost">
+                                                            <p class="">$35.25</p>
+                                                        </div>
+                                                    </div>
+                                                </div>                       
+                                                <div class="fees-charge-info">
+                                                    <p>Charge to <strong> VISA *5555 </strong> (edit)</p>
+                                                </div>
+                                            </div>
+                                            <div class="collapsible-card-links">
+                                                <u><a href="">Message</a></u>
+                                                <u class="px-2"><a href="">Resolve Issue</a></u>
+                                            </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                        <div class="media product-card-rating">
+                                          
+                                            <div class="media-right profile-card-map">
+                                                <img class="img-thumbnail" src="./assets/images/map.png" alt="Generic placeholder image">
+                                                <div class="profile-card-map-adderss">
+                                                    Upper West Side New York, NY 10018
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        
                 </div>
             </div>
         </div>
     </section>
-    <section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <section class="product-list carousel slide" data-ride="carousel" id="postsCarousel">
         <div class="container">
-                    <h1>Product List carousel </h1>
+        <h1>Product List carousel</h1>
         <div class="row">
-            <div class="col-12 text-md-right lead">
+            <div class="col-12 text-md-right product-list-chevron">
                 <a class="btn btn-secondary-outline prev" title="go back" data-target="#postsCarousel"><i class="fa fa-lg fa-chevron-left"></i></a>
                 <a class="btn btn-secondary-outline next" title="more" data-target="#postsCarousel"><i class="fa fa-lg fa-chevron-right"></i></a>
             </div>
         </div>
         </div>
-        <div class="container pt-0 mt-2">
+        <div class="container pt-0 mt-2 product-list-body">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active product-list-item">
                     <div class="card-deck">
                     <div class="card h-100">
-                        <div class="card-img-top card-img-top-250">
+                        <div class="card-img-top product-list-avtar" data-toggle="modal" data-target="#myModal">
                             <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
                         </div>
                     </div>
                     <div class="card h-100">
-                        <div class="card-img-top card-img-top-250">
+                        <div class="card-img-top product-list-avtar">
                             <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
                         </div>
                     </div>
                     <div class="card h-100">
-                        <div class="card-img-top card-img-top-250">
+                        <div class="card-img-top product-list-avtar">
                             <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
                         </div>
                     </div>
                 </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item product-list-item">
                     <div class="card-deck">
                     <div class="card">
-                        <div class="card-img-top card-img-top-250">
+                        <div class="card-img-top product-list-avtar">
                             <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 4">
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-img-top card-img-top-250">
+                        <div class="card-img-top product-list-avtar">
                             <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 5">
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-img-top card-img-top-250">
+                        <div class="card-img-top product-list-avtar">
                             <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 6">
                         </div>
                     </div>
@@ -720,19 +830,82 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="pull-left">Product Title</div>
+                    <button type="button" class="close" data-dismiss="modal" title="Close"> 
+                        <i class="fas fa-window-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myGallery" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"> <img src="http://i.imgur.com/EW5FgJM.png" alt="item0">
+                                <div class="carousel-caption">
+                                    <h3>Heading 3</h3>
+                                    <p>Slide 0  description.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item"> <img src="http://i.imgur.com/Hw7sWGU.png" alt="item1">
+                                <div class="carousel-caption">
+                                    <h3>Heading 3</h3>
+                                    <p>Slide 1 description.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item"> <img src="https://placeimg.com/600/400/nature/3" alt="item2">
+                                <div class="carousel-caption">
+                                    <h3>Heading 3</h3>
+                                    <p>Slide 2  description.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item"> <img src="http://i.imgur.com/EW5FgJM.png" alt="item3">
+                                <div class="carousel-caption">
+                                    <h3>Heading 3</h3>
+                                    <p>Slide 3 description.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item"> <img src="http://i.imgur.com/Hw7sWGU.png" alt="item4">
+                                <div class="carousel-caption">
+                                    <h3>Heading 3</h3>
+                                    <p>Slide 4 description.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item"> <img src="https://placeimg.com/600/400/nature/3" alt="item5">
+                                <div class="carousel-caption">
+                                    <h3>Heading 3</h3>
+                                    <p>Slide 5 description.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev text-danger" href="#myGallery" role="button" data-slide="prev">
+                            <span class="fa fa-angle-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next text-danger" href="#myGallery" role="button" data-slide="next">
+                            <span class="fa fa-angle-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+        </div>
     </section>
-<section class="payouts">
+    <section class="payouts">
         <div class="container">
             <h1>Payouts</h1>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="card payouts-card mt-4">
-                        <div class="payouts-card-title">
-                            <p class="px-4 py-2 mb-0 bg-gray-light"> 
-                                <span>Payouts</span>
-                            </p> 
+                        <div class="payouts-card-title px-4 py-2 mb-0 bg-gray-light">
+                            <h6 class="mb-0">
+                                Payouts
+                            </h6> 
                         </div>    
-                         <div class=" border-radius-6 px-4 py-4 payouts-card body">    
+                         <div class="payouts-card-body border-radius-6 px-4 py-4">
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-4 text-center">
                                     <div class="payouts-heading">
@@ -755,11 +928,11 @@
                                         <p>TOTAL THIS MONTH </p>
                                     </div>
                                     <div class="payouts-amount">
-                                        <p class="payouts-amount"><b>$536.00</b> </p>
+                                        <p><b>$536.00</b> </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="payouts-card-details">
+                            <div class="payouts-card-info">
                                 <p>Payouts are being sent to your Paypal account (janedoe@email.com) <u>EDIT</u></p>
                             </div><hr>  
                         </div>
@@ -768,12 +941,11 @@
             </div>
         </div>
     </section>
-    <section class="payouts-table-component">
+    <section class="payouts-list">
         <div class="container">
             <div class="row">
-                <h1>Payouts-Table</h1>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="table-responsive payouts-table .table-responsive-sm">          
+                    <h1>Payouts-List</h1>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -785,34 +957,34 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="payouts-table-date">03/06/16 </td>
-                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
-                                    <td class="payouts-table-user-name">John S </td>
-                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                    <td class="payouts-list-date">03/06/16 </td>
+                                    <td class="payouts-list-description">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-list-user-name">John S </td>
+                                    <td class="payouts-list-amount d-none d-sm-block">$30.00</td>
                                 </tr>
                                 <tr>
-                                    <td class="payouts-table-date">03/06/16 </td>
-                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
-                                    <td class="payouts-table-user-name">John S </td>
-                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                    <td class="payouts-list-date">03/06/16 </td>
+                                    <td class="payouts-list-description">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-list-user-name">John S </td>
+                                    <td class="payouts-list-amount d-none d-sm-block">$30.00</td>
                                 </tr>
                                 <tr>
-                                    <td class="payouts-table-date">03/06/16 </td>
-                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
-                                    <td class="payouts-table-user-name">John S </td>
-                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                    <td class="payouts-list-date">03/06/16 </td>
+                                    <td class="payouts-list-description">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-list-user-name">John S </td>
+                                    <td class="payouts-list-amount d-none d-sm-block">$30.00</td>
                                 </tr>
                                 <tr>
-                                    <td class="payouts-table-date">03/06/16 </td>
-                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
-                                    <td class="payouts-table-user-name">John S </td>
-                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                    <td class="payouts-list-date">03/06/16 </td>
+                                    <td class="payouts-list-description">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-list-user-name">John S </td>
+                                    <td class="payouts-list-amount d-none d-sm-block">$30.00</td>
                                 </tr>
                                 <tr>
-                                    <td class="payouts-table-date">03/06/16 </td>
-                                    <td class="payouts-table-details">Lorem ipsum dolor sit amet </td>
-                                    <td class="payouts-table-user-name">John S </td>
-                                    <td class="payouts-table-amount d-none d-sm-block">$30.00</td>
+                                    <td class="payouts-list-date">03/06/16 </td>
+                                    <td class="payouts-list-description">Lorem ipsum dolor sit amet </td>
+                                    <td class="payouts-list-user-name">John S </td>
+                                    <td class="payouts-list-amount d-none d-sm-block">$30.00</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -821,54 +993,52 @@
             </div>
         </div>
     </section>
-    <section class="message">
+    <section class="message-list">
         <div class="container">
             <div class="row">
-                <h1>Messages</h1>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="table-responsive .table-responsive-sm messages-table">          
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>User Name</th>
-                                    <th>Last Updated</th>
-                                    <th>Discussion</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="message-card-avtar">
-                                        <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
-                                        <span class="user-name"><b>John S</b></span>
-                                    </td>
-                                    <td class="message-last-update">3/10/16 9:00am </td>
-                                    <td class="message-descussion"><b>Lorem ipsum dolor sit amet</b><br>Lorem ipsum dolor sit amet consectetur adipiscing elit </td>    
-                                </tr>
-                                <tr class="table-active">
-                                    <td class="message-card-avtar">
-                                        <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
-                                        <span class="user-name">John S </span>
-                                    </td>
-                                    <td class="message-last-update">3/10/16 9:00am </td>
-                                    <td class="message-descussion"><b>Lorem ipsum dolor sit amet</b><br>Lorem ipsum dolor sit amet consectetur adipiscing elit </td> 
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <h1>Message List</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>User Name</th>
+                                <th>Last Updated</th>
+                                <th>Discussion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="message-list-user-avtar">
+                                    <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
+                                    <span class="message-list-user-name">John S</span>
+                                </td>
+                                <td class="message-list-last-update">3/10/16 9:00am </td>
+                                <td class="message-list-description"><b>Lorem ipsum dolor sit amet</b><br>Lorem ipsum dolor sit amet consectetur adipiscing elit </td>    
+                            </tr>
+                            <tr class="table-active">
+                                <td class="message-list-user-avtar">
+                                    <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
+                                    <span class="message-list-user-name">John S </span>
+                                </td>
+                                <td class="message-list-last-update">3/10/16 9:00am </td>
+                                <td class="message-list-discription"><b>Lorem ipsum dolor sit amet</b><br>Lorem ipsum dolor sit amet consectetur adipiscing elit </td> 
+                            </tr>
+                        </tbody>
+                    </table>              
                 </div>
             </div>
         </div>
     </section>
-    <section class="payment-methods">
+    <section class="payment-method">
         <div class="container">
             <h1>Payment Methods</h1>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="card payment-card mt-4">
-                        <div class="payment-card-title">
-                            <p class="px-4 py-2 mb-0 bg-gray-light"> 
-                                <span>Payment Methods</span>
-                            </p> 
+                    <div class="card payment-method-card mt-4">
+                        <div class="payment-method-card-title px-4 py-2 mb-0 bg-gray-light">
+                            <h6 class="mb-0">
+                                Payment Methods
+                            </h6>
                         </div>    
                         <div class="container">
                             <form action="#">
@@ -897,10 +1067,8 @@
                                         <div class="form-group">
                                             <label for="country">COUNTRY</label>
                                             <select class="form-control" id="country">
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
+                                                <option>India</option>
+                                                <option>United States of America</option>
                                             </select>
                                         </div>
                                     </div>
@@ -920,10 +1088,10 @@
                                             <label for="expires">EXPIRES
                                             </label>
                                             <select class="form-control" id="expires-month">
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
+                                                <option value="" disabled selected>MM</option>
+                                                <option>January</option>
+                                                <option>Febuary</option>
+                                                <option>March</option>
                                             </select>
                                         </div>
                                     </div>
@@ -931,10 +1099,10 @@
                                         <div class="form-group">
                                             <label for="expire-year ">&nbsp</label>
                                             <select class="form-control " id="expire-year">
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
+                                                <option value="" disabled selected>YYYY</option>
+                                                <option>2018</option>
+                                                <option>2017</option>
+                                                <option>2016</option>
                                             </select>
                                         </div>
                                     </div>
@@ -948,10 +1116,36 @@
                                     </div> 
                                 </div>
                                 <div class="form-group">
-                                    <button type="button" class="btn btn-success ">SAVE</button>
+                                    <button type="button" class="btn btn-primary">SAVE</button>
                                     <button type="button" class="btn btn-default">Cancel</button>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="payment-methods">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1>Data Modal</h1>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal11">Modal</button>
+                    <div class="modal fade" id="myModal11" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title float-left">Wel-Come</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the modal.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur adipiscing elit </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
