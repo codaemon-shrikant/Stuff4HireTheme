@@ -1,16 +1,28 @@
 .email-card {
+	box-shadow: 0px 5px 10px 0px $sky-blue;
+	border: 1px solid $sky-blue;
 	.message-card-avtar {
 
 	}
 	.email-card-body {
 		.email-card-title {
-
+			font-weight: bold;
+		    color: $gray-dark;
+		    font-size: 18px;
 		}
 		.email-card-text {
-
+			p {
+				margin-bottom: 15px;
+			    color: $gray-dark;
+			    font-size: 1rem;
+			}
 		}
 		.email-card-footer {
-
+			p {
+				margin-bottom: 15px;
+			    color: $gray-dark;
+			    font-size: 1rem;
+			}
 		}
 	}
 }

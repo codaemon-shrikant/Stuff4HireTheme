@@ -1,0 +1,35 @@
+.products {
+	.card {
+		.card-body {
+			.card-title {
+				font-weight: bold;
+				color: $gray-dark;
+			}
+			.card-text {
+				color: $gray-dark;
+			} 
+		}
+	}
+}
+.user-name {
+		 	 	h5 {
+		 	 		font-size: 18px;
+    				font-weight: bold;
+    				color: $gray-dark;
+		 	 	}
+		 	}
+.product-details {
+	.card {
+		.details {
+			.price {
+				text-transform: capitalize;
+    			font-size: 20px;
+			}
+			.vote {
+    			font-size: 1rem;
+			}
+		}
+	}
+}
+
+	

@@ -1,28 +1,57 @@
 .message-card {
+	@media #{$bootstrap-xs} {
+		display: block;
+	}
 	.message-card-avtar {
-
+		img {
+			width: 50px;
+		}
+		@media #{$bootstrap-xs} {
+		width: 150px;
+		height: 150px;
+		img {
+			width: 100%;
+		}
+	}
 	}
 	.message-card-body {
 		.message-card-body-header {
-			.message-card-user-name {
-
+			.message-card-user-info {
+				margin-bottom: 8px;
 			}
+			.message-card-user-name {
+				font-size: 18px;
+			    font-weight: bold;
+			    color: $gray-dark;
+			}
+			.message-card-date-time {
+				font-size: 15px;
+    			color: $gray-dark;
+			}
+			
 		}
 		.message-card-title {
-
-		}
-		.message-card-text {
-
+					.message-card-description {
+							font-weight: bold;
+			    			color: $gray-dark;
+			    			margin-bottom: 4px;
+						}
 		}
 		.message-card-confirm-button {
 
 		}
 		.message-card-note {
-
+				    margin-top: 6px;
 		}
 		.message-card-image {
 			width: 100%;
 			max-width: 250px;
 		}
+		.message-card-text  {
+			margin-bottom: 15px;
+			    color: #474646;
+			    font-size: 1rem;
+				
+			}
 	}
 }

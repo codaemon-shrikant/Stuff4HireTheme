@@ -1,0 +1,29 @@
+.products {
+	.card {
+		.card-body {
+			.card-title {
+				font-weight: bold;
+				color: #5a5a5a;
+			}
+			.card-text {
+				color: #4f4c4c
+			} 
+		}
+	}
+}
+.product-card {
+	.product-card-body {
+		.product-card-rating {
+		 	.user-name {
+		 	 	h5 {
+		 	 		font-size: 18px;
+    				font-weight: bold;
+		 	 	}
+		 	}
+		}
+	}
+}
+
+
+	text-transform: capitalize;
+    font-size: 20px;

@@ -1,4 +1,9 @@
 .review-card {
+		box-shadow: 0px 5px 10px 0px $sky-blue;
+	    border: 1px solid $sky-blue;
+	@media #{$bootstrap-xs} {
+		display: block;
+	}
 	.review-card-avtar {
 		width: 150px;
 		height: 150px;
@@ -9,15 +14,31 @@
 	.review-card-body {
 		.review-card-title {
 			display: inline-block;
+			font-weight: bold;
+    		color: $gray-dark;
+		    font-size: 18px;	
 		}
 		.review-card-rating-stars {
 			display: inline-block;
 		}
-		.review-card-user-name {
-
+		.review-card-user-info {
+			.review-card-user-name {
+				font-size: 18px;
+			    font-weight: bold;
+			    color: $gray-dark;
+			}
+			.review-card-date-time {
+				font-size: 15px;
+    			color: $gray-dark;
+			}
 		}
 		.review-card-text {
-
+			margin-bottom: 15px;
+		    color: #474646;
+		    font-size: 1rem;
+		}
+		.review-card-description {
+			    
 		}
 	}
 }

@@ -1,0 +1,27 @@
+.payouts-list {
+			.table {
+					 
+						thead	th {
+							    font-size: 16px;
+							    font-weight: bold;
+							    color: $gray-dark;
+						}
+					
+		}
+		.payouts-list-date {
+			font-size: 1rem;
+    		color: $gray-dark;
+		}
+		.payouts-list-description {
+			font-size: 1rem;
+    		color: $gray-dark;
+		}
+		.payouts-list-user-name {
+			font-size: 1rem;
+    		color: $gray-dark;
+		}
+		.payouts-list-amount {
+			font-size: 1rem;
+    		color: $gray-dark;
+		}
+}

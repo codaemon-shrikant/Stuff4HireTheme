@@ -1,0 +1,32 @@
+.product-list {
+	.product-list-body {
+		.carousel-inner {
+			.product-list-item {
+				.card-deck {
+					img {
+						  width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+.product-carousel-modal-panel {
+		.product-carousel-modal-header {
+
+		}
+}
+.product-carousel-modal-panel {
+		.product-carousel-modal-body {
+			.carousel-inner {
+				.carousel-item {
+					.product-carousel-avtar {
+						    width: 100%;
+					}
+				.carousel-caption {
+					color:$orange;
+				}
+				}
+			}
+		}
+}

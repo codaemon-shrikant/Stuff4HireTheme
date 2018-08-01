@@ -1,0 +1,29 @@
+.notification {
+	.notification-card {
+		box-shadow: 0px 5px 10px 0px $sky-blue;
+	    border: 1px solid $sky-blue;
+		.notification-card-body {
+			.notification-card-title {
+			 		h6 {
+			 			font-size: 18px;
+					    font-weight: bold;
+					    color: $gray-dark;
+			 		}	
+			}
+			.notification-card-check {
+				.notification-check-label {
+					margin-bottom: 15px;
+				    color: $gray-dark;
+				    font-size: 1rem;
+				}
+			}
+			.notification-card-input {
+				.notification-check-label {
+					margin-bottom: 15px;
+				    color: $gray-dark;
+				    font-size: 1rem;
+				}
+			}
+		}
+	}
+}

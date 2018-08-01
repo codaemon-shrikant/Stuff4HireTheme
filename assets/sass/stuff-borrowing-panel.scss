@@ -1,0 +1,80 @@
+.stuff-borrowing-panel {
+	.collapsible-card-panel {
+	    box-shadow: 0px 5px 10px 0px $sky-blue;
+	    border: 1px solid $sky-blue;
+		.collapsible-card-header {
+			@media #{$bootstrap-xs} {
+				display: block;
+
+			}
+			.collapsible-card-header-avtar {
+				width: 100px;
+				@media #{$bootstrap-xs} {
+					width: 80%;
+				}
+			}
+		}
+		.collapsible-card-header-body {
+			.collapsible-card-header-title { 
+				h6 {
+					font-size: 18px;
+					font-weight: bold;
+					color: $gray-dark;
+				}
+			}
+			.collapsible-card-header-description {
+				p {
+					margin-bottom: 15px;
+				    color: $gray-dark;
+				    font-size: 1rem;
+				}
+			}
+		}
+		.collapsible-card-body {
+			.collapsible-card-body-text {
+				p {
+					margin-bottom: 15px;
+				    color: $gray-dark;
+					font-size: 1rem;
+				}
+			}
+			.rating-user-avtar {
+
+			}
+			.user-name {
+
+			}
+			.product-rating-stars {
+
+			}
+			.fees-panel {
+				.fees-title {
+
+				}
+				.fees-cost { 
+					p {
+						margin-bottom: 15px;
+					    color: $gray-dark;
+					    font-size: 1rem;
+					}
+				}
+				.fees-charge-info {
+					p {
+						margin-bottom: 15px;
+					    color: $gray-dark;
+					    font-size: 1rem;
+					}	
+				}
+			}
+			.collapsible-card-links {
+				a {
+					color: $gray-dark;
+
+					&:hover {
+						color: $orange;
+					}
+				}
+			}
+		}
+	}
+}
