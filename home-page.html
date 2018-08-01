@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/custom.css" >
+    <script src="./assets/js/jquery-1.11.1.min.js"></script>
+
+    <title>Stuff 4 Hire!</title>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+        $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("a.collapsed").click(function(){
+            $(this).find(".btn:contains('answer')").toggleClass("collapsed");
+        });
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+        $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+    });
+
+    </script>
+
+</head>
+<body>
+    <div class="container-fluid bg-sky-blue">
+        <nav class="navbar navbar-secondary container">
+            <a class="navbar-brand" href="#"><img class="logo-image"       
+            src="./assets/images/S4H_logo_grey_orange_copy-sm.png"></a>
+            <div class="d-flex flex-row justify-content-end">
+                <ul class="navbar-nav flex-row pr-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-envelope pr-1"></i> <span class="d-none d-sm-inline">Messages</span>
+                        </a>
+                        <span class="badge badge-orange">4</span>
+                        <div class="dropdown-menu message-dropdown-menu box-shaddow border-orange">
+                            <a class="dropdown-item" href="#">
+                                <div class="media message-card my-1">
+                                    <div class="message-card-body media-body">
+                                        <div class="message-card-body-header">
+                                            <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
+                                        </div>
+                                        <div class="message-card-title">
+                                            <b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b>
+                                        </div>
+                                        <div class="message-card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="media message-card my-1">
+                                    <div class="message-card-body media-body">
+                                        <div class="message-card-body-header">
+                                            <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
+                                        </div>
+                                        <div class="message-card-title">
+                                            <b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b>
+                                        </div>
+                                        <div class="message-card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="media message-card my-1">
+                                    <div class="message-card-body media-body">
+                                        <div class="message-card-body-header">
+                                            <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
+                                        </div>
+                                        <div class="message-card-title">
+                                            <b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b>
+                                        </div>
+                                        <div class="message-card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="media message-card my-1">
+                                    <div class="message-card-body media-body">
+                                        <div class="message-card-body-header">
+                                            <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
+                                        </div>
+                                        <div class="message-card-title">
+                                            <b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b>
+                                        </div>
+                                        <div class="message-card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="media message-card my-1">
+                                    <div class="message-card-body media-body">
+                                        <div class="message-card-body-header">
+                                            <span class="message-card-user-name"> John S </span> 3/10/16 9:00am
+                                        </div>
+                                        <div class="message-card-title">
+                                            <b>RENTAL REQUESTED FOR 2/28/16 7:00PM - 9:00PM</b>
+                                        </div>
+                                        <div class="message-card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing ...
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-user pr-1"></i><span class="d-none d-sm-inline">John</span>
+                        </a>
+                        <div class="dropdown-menu box-shaddow border-orange">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="jumbotron jumbotron-fluid bg-gray-very-light">
+        <div class="container">
+            <form class="search-form">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" placeholder="Search stuff4hire ">
+                    <a class="btn btn-lg"><i class="fa fa-search" > </i></a>
+                </div>
+            </form>
+            <hr class="my-1">
+            <p><a href="" > Create an account</a> to start with borrowing. it's free!</p>
+        </div>
+    </div>
+    
+    <section> 
+        <div class="container ">
+            <h5 class="text-center pb-3">WHAT'S NEW?</h5>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="col-4">
+                    <img class="card-img-top pl-4" src="./assets/images/no-image.jpeg" alt="Generic placeholder image" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bg-light">
+        <div class="container">
+            <h5 class="text-center py-4">NEED HELP?</h5>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <img class="" src="./assets/images/no-image.jpeg"alt="Generic placeholder image">
+                </div>
+                <div class="col-4 pb-4">
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Read More</a><br>
+                    <i class="fa fa-phone py-3" aria-hidden="true">&nbsp;</i> <span>(212) 381 0348</span><br>
+                    <i class="fa fa-envelope"/> &nbsp;</i><span>info@stuff4hire.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="account">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                   <h5 class="text-center py-4">JOIN THE COMMUNITY!</h5>
+                   <center> <a href="#" class="btn btn-primary text-center">CREATE AN ACCOUNT</a></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid footer txt-white">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <div class="footer-about">
+                    <img class="footer-about-avtar"       
+                    src="./assets/images/s4h-logo-main.png">
+                    <p class="footer-about-description">Stuff4Hire is a social networking platform that will bring borrowers and lenders together.
+                        Search for products in your area and negotiate rental terms with lenders.</p>
+                        <div class="footer-social-links">
+                            <a href="#"><i class="fab fa-facebook-f txt-white px-2"></i></a>
+                            <a href="#"><i class="fab fa-twitter txt-white px-2"></i></a>
+                            <a href="#"><i class="fab fa-instagram txt-white px-2"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g txt-white px-2"></i></a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 class="txt-white">Quick Links</h4>
+                <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled px-2">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>FAQ</li>
+                        <li>Legal</li>
+                        <li>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                     <ul class="list-unstyled px-2">
+                        <li>Register</li>
+                        <li>Sign In</li>
+                        <li>Search For</li>
+                        <li>Stuff</li>
+                    </ul>
+                </div> 
+                </div>
+            </div>
+            <div class="col-md-4">
+                    <h4 class="txt-white">Stay In Touch</h4>
+                    <p class="">Subscribe today to receive the latest news:</p>
+                    <p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default newsletter-btn" type="button">
+                                <i class="fa fa-envelope"></i>
+                            </button>
+                        </span>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </footer>

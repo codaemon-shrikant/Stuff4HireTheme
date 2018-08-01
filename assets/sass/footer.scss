@@ -3,4 +3,20 @@
 	.newsletter-btn {
 		border-radius: 0rem !important;
 	}
+	
+	.footer-about {
+		.footer-social-links {
+			&:hover {
+				color: $orange;
+			}
+		}
+	}
+	
+	.footer-quicklinks {
+		.footer-quicklinks-links {
+			 	a {
+				text-decoration: none;			
+				}
+		}
+	}
 }
