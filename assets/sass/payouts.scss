@@ -7,5 +7,40 @@
 	.payouts-amount { 
 		font-size: 30px;
 	}
+	.payouts-card-title {
+		background-color:$sky-blue;
+	}
+	.payouts-card-body {
+		box-shadow: 0px 5px 10px 0px $sky-blue;
+		.payouts-heading {
+			h6 {
+					font-size: 18px;
+					font-weight: bold;
+					color: $gray-dark;
+				}
+			}
+		.payouts-amount {
+			p {
+				font-size: 1.4rem;
+    			color: #474646;
+			}
+		}
+		.payouts-card-info {
+			p {
+				font-size: 1rem;
+			    color: #474646;
+			    text-align: center;
+			}
+			a {
+					color: $gray-dark;
+					cursor: pointer;
+
+					&:hover {
+						color: $orange;
+					}
+				}
+		}
+		
+	}
 }
 

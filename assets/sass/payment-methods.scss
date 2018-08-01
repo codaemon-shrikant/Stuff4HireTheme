@@ -1,0 +1,18 @@
+.payment-method {
+		.payment-method-card {
+			 box-shadow: 0px 5px 10px 0px $sky-blue;
+			 border: 1px solid $sky-blue;
+			.payment-method-card-body {
+				.form-group {
+					.payment-method-label {
+						font-size: 16px;
+						color: $gray-dark;
+				}
+				}
+				
+			}
+		}
+		.payment-method-card-title {
+			background-color: $sky-blue;
+		}
+}

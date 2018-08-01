@@ -24,6 +24,7 @@ $sky-blue: #c4e5ec;
 $dark: #5a5a5a;
 $gray-light: #acacac;
 $gray-very-light: #d9d9d9;
+$gray-dark: #474646;
 $white: #fff;
 
 /** Generic classes **/
@@ -46,6 +47,9 @@ $white: #fff;
     &-white {
     	color: $white;
     }
+    &-sky-blue {
+		color: $sky-blue;
+	}
 }
 .bg {
 	&-sky-blue {
@@ -55,7 +59,7 @@ $white: #fff;
     	background-color: $orange;
     }
     &-dark {
-    	background-color: $dark;
+    	background-color: $dark !important;
     }
     &-gray-light {
     	background-color: $gray-light;
@@ -250,3 +254,18 @@ footer {
 @import "email-msg-thread";
 @import "message-thread";
 @import "payouts";
+@import "stuff-borrowing-panel";
+@import "product-view";
+@import "carousel";
+@import "navbar";
+@import "notification";
+@import "stuff-borrowing-panel";
+@import "product-carousel";
+@import "payout-list";
+@import "message-list";
+@import "payment-methods";
+@import "footer";
+
+
+
+
