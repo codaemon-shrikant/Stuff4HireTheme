@@ -9270,5 +9270,26 @@ footer {
 .footer .newsletter-btn {
   border-radius: 0rem !important;
 }
+.footer .footer-about .footer-social-links:hover {
+  color: #ef773b;
+}
+.footer .footer-quicklinks .footer-quicklinks-links a {
+  text-decoration: none;
+}
+
+.account {
+  min-height: 250px;
+  background-position: center center;
+  background-size: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.25)), url(../images/banner.jpg);
+}
+
+.fa-envelope {
+  color: #fd6702;
+}
+
+.fa-phone {
+  color: #fd6702;
+}
 
 /*# sourceMappingURL=custom.css.map */
