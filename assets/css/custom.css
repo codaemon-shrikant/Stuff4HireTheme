@@ -9268,7 +9268,7 @@ footer {
   background-color: #474646;
 }
 .footer .newsletter-btn {
-  border-radius: 0rem !important;
+  border-radius: 0rem 0.25rem 0.25rem 0rem !important;
 }
 .footer .footer-about .footer-social-links:hover {
   color: #ef773b;
@@ -9277,19 +9277,37 @@ footer {
   text-decoration: none;
 }
 
-.account {
+.whats-new {
+  padding-bottom: 70px;
+}
+.whats-new .whats-new-heading {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.whats-new .whats-new-heading .whats-new-image {
+  width: 400px;
+  height: 150px;
+}
+
+.need-help {
+  padding-bottom: 70px;
+}
+.need-help .need-help-heading {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.need-help .need-help-img {
+  width: 300px;
+}
+
+.join-community {
   min-height: 250px;
   background-position: center center;
   background-size: 100%;
   background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.25)), url(../images/banner.jpg);
 }
-
-.fa-envelope {
-  color: #fd6702;
-}
-
-.fa-phone {
-  color: #fd6702;
+.join-community .join-community-heading {
+  margin-top: 75px;
 }
 
 /*# sourceMappingURL=custom.css.map */
