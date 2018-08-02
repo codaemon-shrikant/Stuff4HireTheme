@@ -9312,6 +9312,7 @@ footer {
 .join-community .join-community-heading {
   margin-top: 75px;
 }
+<<<<<<< HEAD
 
 .login .login-panel {
   background-color: #fff;
@@ -11067,6 +11068,70 @@ a {
   align-items: center;
   padding: 1rem;
   border-top: 1px solid #e9ecef;
+}
+
+.login .login-panel {
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 6px;
+}
+.login .login-panel .login-panel-footer input {
+  font-size: 14px;
+  color: #fff;
+  background-color: #3b5998;
+}
+.login .login-panel .login-panel-body .signup-link {
+  text-align: center;
+}
+.login .login-panel .login-panel-body .signup-link h6 {
+  font-size: 13px;
+}
+.login .login-panel .login-panel-body .forgot-pwd {
+  float: right;
+  font-size: 13px;
+  font-weight: normal !important;
+}
+.login .login-panel .login-panel-body label {
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+.login .login-panel .btn-login {
+  font-size: 16px;
+}
+.login .login-panel-header {
+  text-align: center;
+  color: white;
+}
+
+.signup .signup-panel-header .signup-panel-title {
+  color: #fff;
+  text-align: center;
+}
+.signup .signup-panel {
+  background-color: #fff;
+}
+.signup .signup-panel .signup-panel-body .signup-link {
+  text-align: center;
+}
+.signup .signup-panel .signup-panel-body .signup-link h6 {
+  font-size: 13px;
+}
+.signup .signup-panel .signup-panel-body .btn-signup {
+  font-size: 16px;
+}
+.signup .signup-panel .signup-panel-body .forgot-pwd {
+  float: right;
+  font-size: 13px;
+  font-weight: normal !important;
+}
+.signup .signup-panel .signup-panel-body label {
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+.signup .signup-panel .signup-panel-footer input {
+  font-size: 14px;
+  color: #fff;
+  background-color: #3b5998;
 }
 
 /*# sourceMappingURL=custom.css.map */
