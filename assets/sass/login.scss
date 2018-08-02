@@ -1,0 +1,39 @@
+.login {
+	.login-panel {
+		background-color:$white;
+		border: 1px solid;
+		border-radius:6px;
+		.login-panel-footer {
+			 input {
+			 	font-size:14px;
+			 	color:$white;
+			 	background-color:$dark-blue;
+			 }
+		}
+	.login-panel-body {
+		.signup-link {
+				text-align:center;
+				h6 {
+					  font-size: 13px;
+				}
+			}
+		.forgot-pwd {
+			float:right;
+			font-size: 13px;
+			font-weight: normal !important;
+		}
+		label {
+				margin-bottom: 0.2rem;
+				font-weight: bold;
+			}
+		}
+		.btn-login {
+			font-size: 16px;
+		}
+
+	}
+	.login-panel-header {
+		 text-align:center;
+		 color:white;
+	}
+}

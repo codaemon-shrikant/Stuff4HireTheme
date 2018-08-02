@@ -1,0 +1,39 @@
+.signup {
+	.signup-panel-header {
+		.signup-panel-title {
+			color:$white;
+			text-align: center;
+		}
+	}
+	.signup-panel {
+		background-color:$white;
+		.signup-panel-body {
+				.signup-link {
+					text-align:center;
+					h6 {
+						  font-size: 13px;
+					}
+				}
+				.btn-signup {
+					font-size: 16px;
+				}
+				.forgot-pwd {
+					float:right;
+					font-size: 13px;
+					font-weight: normal !important;
+				}
+				label {
+					margin-bottom: 0.2rem;
+					font-weight: bold;
+				}
+		}
+		.signup-panel-footer {
+			 input {
+			 	font-size:14px;
+			 	color:$white;
+			 	background-color:$dark-blue;
+			 }
+		}
+	}
+
+}
