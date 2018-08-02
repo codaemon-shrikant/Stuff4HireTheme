@@ -1,7 +1,10 @@
 .footer {
 	background-color: $gray-dark;
 	.newsletter-btn {
-		border-radius: 0rem !important;
+		border-radius: 0rem 0.25rem 0.25rem 0rem !important;
+	}
+	.fa-envelope {
+				
 	}
 	
 	.footer-about {
