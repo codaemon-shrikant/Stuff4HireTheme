@@ -1,31 +1,34 @@
 .message-list {
-			.table {
+			.message-list-table {
 					 
-						thead	th {
-									    font-size: 16px;
-									    font-weight: bold;
-									    color: $gray-dark;
-							}
-								td {
-										font-size: 1rem;
-							    		color: $gray-dark;
-							}
-			.message-list-user-avtar {
-					.message-list-user-name {
-								font-size: 1rem;
-					    		color: $gray-dark;
-							}
-					
-			}
-			.message-list-description {
-								
-				    	.message-list-info {
-					    			font-size: 16px;
-									font-weight: bold;
-									color: $gray-dark;
-									margin-bottom: 2px;
-					    	}
-					}
+							thead	th {
+										    font-size: 16px;
+										    font-weight: bold;
+										    color: $gray-dark;
+								}
+									td {
+											font-size: 1rem;
+								    		color: $gray-dark;
+								}
+				.message-list-user-avtar {
+						.message-list-user-name {
+									font-size: 1rem;
+						    		color: $gray-dark;
+								}
+						
+				}
+				.message-list-description {
+									
+					    	.message-list-info {
+						    			font-size: 16px;
+										font-weight: bold;
+										color: $gray-dark;
+										margin-bottom: 2px;
+						    	}
+						}
 				
+		}
+		.message-list-tr {
+			background-color:$gray-very-light;
 		}
 }

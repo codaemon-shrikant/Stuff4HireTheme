@@ -1,4 +1,25 @@
-.sidebar{
-	
-}
+.sidebar {
+	.sidebar-title {
+		background-color:$gray-light;
+	}
+	.sidebar-body {
+		.sidebar-ul {
+			.sidebar-li {
+				.sidebar-link {
+					border: 1px solid $gray-very-light;
+					border-radius: 0px;
+					border-bottom-right-radius: none;
+    				border-bottom-left-radius: none;
+					&:hover {
+						background-color:$sky-blue;
+					}
+					&.active {
+						background-color:$gray-very-light;
+						border-color:$gray-very-light $dark $gray-very-light $dark;
+						color:$gray-dark;
+					}
+				}
+			}
+		}
+	}
 }
