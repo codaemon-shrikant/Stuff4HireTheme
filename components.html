@@ -20,6 +20,15 @@
     $(document).ready(function() {
         $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
         $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+              $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+        });
+        $('.nav-tabs a').on('shown.bs.tab', function(event){
+            var x = $(event.target).text();         // active tab
+            var y = $(event.relatedTarget).text();  // previous tab
+            $(".act span").text(x);
+            $(".prev span").text(y);
+        });
     });
     </script>
     <script type="text/javascript">
@@ -514,37 +523,37 @@
                     <h1>Sidebar Panel</h1>
                     <div class="card sidebar">
                         <div class="sidebar-title">
-                            <h5 class="px-4 py-2 mb-0 bg-gray-light">My Account</h5>
+                            <h5 class="px-4 py-2 mb-0">My Account</h5>
                         </div>
                         <div class="sidebar-body">
-                            <ul class="list-group sidebar-ul">
-                              <li class="list-group sidebar-li">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">Profile</a>
-                              </li>
-                              <li class="list-group sidebar-li">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">My Stuff</a>
-                              </li>
-                              <li class="list-group">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">Stuff I’m Borrowing</a>
-                              </li>
-                              <li class="list-group sidebar-li">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">Locations</a>
-                              </li>
-                              <li class="list-group sidebar-li">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">Contacts</a>
-                              </li>
-                              <li class="list-group sidebar-li">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">Notifications</a>
-                              </li>
-                              <li class="list-group sidebar-li">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">Payment Methods</a>
-                              </li>
-                              <li class="list-group sidebar-li">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">Payouts</a>
-                              </li>
-                              <li class="list-group sidebar-li">
-                                <a href="#" class="list-group-item list-group-item-action sidebar-item">Invite Friends</a>
-                              </li>
+                            <ul class="list-group sidebar-ul nav nav-tabs">
+                                <li class="sidebar-li nav-item">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link active" href="#profile-panel">Profile</a>
+                                </li>
+                                <li class="nav-item sidebar-li">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link" href="#mystuff-panel">My Stuff</a>
+                                </li>
+                                <li class="nav-item sidebar-li">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link" href="#stuffiamborrowing-panel">Stuff I’m Borrowing</a>
+                                </li>
+                                <li class="nav-item sidebar-li">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link" href="#locations">Locations</a>
+                                </li>
+                                <li class="nav-item sidebar-li">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link" href="#contacts">Contacts</a>
+                                </li>
+                                <li class="nav-item sidebar-li">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link" href="#notifications">Notifications</a>
+                                </li>
+                                <li class="nav-item sidebar-li">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link" href="#payment-methods">Payment Methods</a>
+                                </li>
+                                <li class="nav-item sidebar-li">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link" href="#payouts">Payouts</a>
+                                </li>
+                                <li class="nav-item sidebar-li">
+                                  <a class="list-group-item list-group-item-action nav-link sidebar-link" href="#invite-friends">Invite Friends</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -628,7 +637,7 @@
                 <div class="col-lg-12">
                         <h1>Stuff I am borrowing Collapsible panel</h1>
                         <div class="collapse-panel collapsible-card-panel px-3 py-2 mb-3">
-                            <div class="media bg-light collapsible-card-header" id="panelOne">
+                            <div class="media bg-light collapsible-card-header" data-toggle="collapse" data-target="#collapseOne" id="panelOne">
                                     <div class="media-right px-2 py-4">
                                         <i id="headingOne" class="fa fa-chevron-down pull-right" data-toggle="collapse" data-target="#collapseOne"></i>
                                         <img src="./assets/images/no-image.jpeg" alt="Generic placeholder image" class="img-thumbnail collapsible-card-header-avtar">
@@ -732,7 +741,7 @@
                                 </div>
                             </div>
                             <hr>
-                            <div class="media bg-light collapsible-card-header" id="panelTwo">
+                            <div class="media bg-light collapsible-card-header" id="panelTwo" data-toggle="collapse" data-target="#collapseTwo">
                                     <div class="media-right px-2 py-4">
                                         <i id="headingTwo" class="fa fa-chevron-down pull-right" data-toggle="collapse" data-target="#collapseTwo"></i>
                                         <img src="./assets/images/no-image.jpeg" alt="Generic placeholder image" class="img-thumbnail collapsible-card-header-avtar">
@@ -1073,7 +1082,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h1>Message List</h1>
-                    <table class="table">
+                    <table class="table message-list-table">
                         <thead>
                             <tr>
                                 <th>User Name</th>
@@ -1091,7 +1100,7 @@
                                 <td class="message-list-description">
                                     <p class="message-list-info">Lorem ipsum dolor sit amet</p>Lorem ipsum dolor sit amet consectetur adipiscing elit </td>    
                             </tr>
-                            <tr class="table-active">
+                            <tr class="table-active message-list-tr">
                                 <td class="message-list-user-avtar">
                                     <img class="pull-left img-circle nav-user-photo" width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />
                                     <span class="message-list-user-name">John S </span>
@@ -1226,7 +1235,7 @@
                                 Lorem ipsum dolor sit amet consectetur adipiscing elit
                                 Lorem ipsum dolor sit amet consectetur adipiscing elit  </p>
                             </div>
-                            <footer class="modal-footer">
+                            <footer class="w3-container data-modal-footer">
                                 <p>Modal Footer</p>
                             </footer>
                         </div>

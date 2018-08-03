@@ -9046,6 +9046,9 @@ footer {
   box-shadow: 0px 5px 10px 0px #c4e5ec;
   border: 1px solid #c4e5ec;
 }
+.stuff-borrowing-panel .collapsible-card-panel .collapsible-card-header {
+  cursor: pointer;
+}
 @media (max-width : 767px) {
   .stuff-borrowing-panel .collapsible-card-panel .collapsible-card-header {
     display: block;
@@ -9159,6 +9162,9 @@ footer {
   box-shadow: 0px 5px 10px 0px #c4e5ec;
   border: 1px solid #c4e5ec;
 }
+.stuff-borrowing-panel .collapsible-card-panel .collapsible-card-header {
+  cursor: pointer;
+}
 @media (max-width : 767px) {
   .stuff-borrowing-panel .collapsible-card-panel .collapsible-card-header {
     display: block;
@@ -9237,24 +9243,27 @@ footer {
   color: #474646;
 }
 
-.message-list .table thead th {
+.message-list .message-list-table thead th {
   font-size: 16px;
   font-weight: bold;
   color: #474646;
 }
-.message-list .table td {
+.message-list .message-list-table td {
   font-size: 1rem;
   color: #474646;
 }
-.message-list .table .message-list-user-avtar .message-list-user-name {
+.message-list .message-list-table .message-list-user-avtar .message-list-user-name {
   font-size: 1rem;
   color: #474646;
 }
-.message-list .table .message-list-description .message-list-info {
+.message-list .message-list-table .message-list-description .message-list-info {
   font-size: 16px;
   font-weight: bold;
   color: #474646;
   margin-bottom: 2px;
+}
+.message-list .message-list-tr {
+  background-color: #d9d9d9;
 }
 
 .payment-method .payment-method-card {
@@ -9493,14 +9502,28 @@ footer {
   right: 0;
   top: 0;
 }
-.data-modal .modal-footer {
+.data-modal .data-modal-footer {
   align-items: center;
   padding: 1rem;
   border-top: 1px solid #e9ecef;
 }
 
-.sidebar .sidebar-body .sidebar-li:hover {
-  color: #ef773b;
+.sidebar .sidebar-title {
+  background-color: #acacac;
+}
+.sidebar .sidebar-body .sidebar-ul .sidebar-li .sidebar-link {
+  border: 1px solid #d9d9d9;
+  border-radius: 0px;
+  border-bottom-right-radius: none;
+  border-bottom-left-radius: none;
+}
+.sidebar .sidebar-body .sidebar-ul .sidebar-li .sidebar-link:hover {
+  background-color: #c4e5ec;
+}
+.sidebar .sidebar-body .sidebar-ul .sidebar-li .sidebar-link.active {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9 #5a5a5a #d9d9d9 #5a5a5a;
+  color: #474646;
 }
 
 /*# sourceMappingURL=custom.css.map */
